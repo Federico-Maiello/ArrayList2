@@ -4,7 +4,7 @@ public class Student {
         this.age = age;
     }
 
-    public static String name;
+    public String name;
     public int age;
 
     @Override
@@ -16,7 +16,7 @@ public class Student {
     }
 
 
-    public static String getName(){
+    public String getName(){
         return name;
     }
 
